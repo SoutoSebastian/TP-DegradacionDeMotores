@@ -17,13 +17,8 @@ Para ello se implementaron y comparan modelos basados en:
 
 + Julia
 
-+ DifferentialEquations.jl
++ Librerias: CSV, DataFrames, Statistics, Plots, Lux, ComponentArrays, OrdinaryDiffEq, SciMLSensitivity, Optimization, OptimizationOptimisers, Zygote, DataInterpolations, MLUtils y LinearAlgebra.
 
-+ Lux.jl
-
-+ Optimization.jl
-
-+ Plots.jl
 
 ## Reproducción de resultados
 
