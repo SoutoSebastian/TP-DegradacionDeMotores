@@ -200,10 +200,12 @@ Los resultados muestran que los modelos NODE y UDE permiten construir trayectori
 
 Las principales observaciones obtenidas fueron:
 
-- La etiqueta exacta favorece una mayor tasa de detección, pero puede incrementar la anticipación
-- El horizonte de falla reduce el efecto del desbalance y produce errores temporales más moderados
-- La restricción acumulativa mejora la interpretabilidad de las trayectorias, aunque puede reducir la flexibilidad predictiva
-- La comparación con la regresión logística respalda el uso de modelos que incorporan explícitamente la evolución temporal
+- El enfoque de supervivencia permite estimar probabilidades de falla directamente a partir de los datos observados.
+- Los modelos dinámicos capturan la evolución temporal de la degradación.
+- La etiqueta exacta favorece una mayor tasa de detección, pero puede incrementar la anticipación.
+- El horizonte de falla reduce el efecto del desbalance y produce errores temporales más moderados.
+- La restricción acumulativa mejora la interpretabilidad de las trayectorias, aunque puede reducir la flexibilidad predictiva.
+- La comparación con la regresión logística respalda el uso de modelos que incorporan explícitamente la evolución temporal.
 
 Los resultados deben interpretarse como una evaluación experimental realizada sobre datos simulados. Como posibles extensiones futuras se propone estudiar arquitecturas más profundas, términos físicos más elaborados, modelos tabulares no lineales y datos reales de operación.
 
@@ -229,7 +231,7 @@ Los resultados deben interpretarse como una evaluación experimental realizada s
 El notebook principal del proyecto se encuentra en:
 
 ```text
-mi_entorno/degradacionHilos.ipynb
+mi_entorno/degradacionPrueba.ipynb
 ```
 
 Los documentos asociados al proyecto son:
